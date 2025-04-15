@@ -1,0 +1,47 @@
+tags are reserved keywords.
+tags are use to ready the structure of webpages.
+syntax:- 
+<tagname> content </tagname>
+
+2 types of tags :-
+
+- container tag : isme opening or closing dono hoti hai.
+- non container tags : isme bas opening hoti hai or kuch nhi. means closing tag ki need nhi .
+
+ # for color change we use bgcolor in body tag where bgcolor is an attribute.
+ # for add image we use image tag  it is a non container tag.
+ <img src="" alt=""> alt stnds  for alternate isme like image not found likhte hai jisse user ko pata chle ki yaha koi image hai
+ src stands for source isme image  ka adddress dete hai like name with extension.
+
+ tags:-
+ block tag => it make a block it take 100% width and hight acc. to content depned krte hai.
+ in-line tag => isme jitne content ki height hai or width hai utne hi space leta h.
+
+
+HOME WORK :- 
+
+# u tag  => The <u> tag in HTML is used to underline text.It is a container tag <u></u>
+
+# i tag => It is a container tag. the <i> tag in html is used to italic text. <i></i>.
+
+# b tag => The <b> tag in HTML is used to make text bold. It is a container tag. <b></b>.
+
+# strong tag => It is a container tag. <strong></strong>.
+                The <strong> tag in HTML is used to indicate that the enclosed text is of great importance. 
+
+# differnce b/w b and strong tag ?
+
+both are use to make a text bold 
+but b tag doest give semantic meaning but strong tag give a semantic meaning.
+b tag doest tell browser why the bold text are important.
+strong tag tell the browser why the bold text are important.
+
+
+14/0/2025 
+Git and Git-Hub
+GitHub is a online platfrom in which we upload our work on it . It ia a online service .It has a cloud space
+Git is a software . Gitbash 
+for config with user name :- git config --global user.name " JatindraPatel"
+for config with user eamil :- git config --global user.email "jatindrapatel9893@gmail.com"
+
+for initilization folder :- git init
