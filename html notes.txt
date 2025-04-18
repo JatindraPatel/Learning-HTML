@@ -39,9 +39,77 @@ strong tag tell the browser why the bold text are important.
 
 14/0/2025 
 Git and Git-Hub
-GitHub is a online platfrom in which we upload our work on it . It ia a online service .It has a cloud space
+GitHub is a online platfrom in which we upload our work on it . 
+It ia a online service .It has a cloud space
 Git is a software . Gitbash 
-for config with user name :- git config --global user.name " JatindraPatel"
-for config with user eamil :- git config --global user.email "jatindrapatel9893@gmail.com"
 
-for initilization folder :- git init
+15/05/2025
+
+for config with user name :- 
+ git config --global user.name " JatindraPatel"
+for config with user eamil :- 
+ git config --global user.email "jatindrapatel9893@gmail.com"
+for initilization folder :- 
+  git init
+  git add.
+  git commit -m "First commit"
+than go on github and open repository after that copy this type of command
+  git remote add origin https://github.com/JatindraPatel/Learning-HTML.git  
+and paste it on git bash after that 
+ for :-  checking git remote -v
+
+16/05/2025 
+list are two type :-
+order or unordered list.
+
+audio :- it is a container tag., <audio src=" "controls></audio> 
+          autoplay, muted,loop
+ and
+  video tag:-it is a container tag
+             <video src="video.mp4" controls autoplay muted loop></video>
+
+button tag se ham button crete kr skte h jisse kuch bhi connect kr skte hai
+
+~ anchor tag is use for page linking.
+ isme ham kisi chiz ka address de skte hai jike help se bottom hame baha le ja ske 
+<a herf=" "> click here</a>
+
+* HOME WORK 16/05/2025 *
+3web page
+1st pr image 2button jisse 2nd or 3rd pr ja ske
+2nd pr audio 2button jisse 1st or 3rd pr ja ske
+3rd pr video 2button jisse 1st or 2nd pr ja ske
+
+
+* 17/04/2025 :- *
+
+if we give # inside href than it will be dead link used for refresing.
+for break line we use br tag  br tag is non-container tag.
+link is always made by anchor tag.
+for download we use anchor tag :-
+              <a href="song.mp3" download>Download Image</a>
+              href ke andr address jo download krana hai bo and ek attribute download.
+              we can aslo can the download by giving name inside the download attribute.
+                            <a href="song.mp3" download="      ">Download Image</a>
+
+marque tag is use for showing sliding  text.
+in this tag we also choose the direction of text like up , down , right and left.
+we chose one direction at a time.
+we also adjust its speed by using scrollamount attribute
+we give atlernate inside the behaviour attribute by this the text remain in the webpage only.
+with the help of center attribute we can center the text.
+or we can also use allign attribute inside the h1 tag.
+hr tag ke help se hm web page ko underline kar skte hai.
+to make somthing highlight in  we use mark tag its color is fixed yellow.
+
+* 18/04/2025 :- *
+
+// FORM :
+name ,city,contact are known as label 
+and the box in which the text is store is knowm as inputfield
+in input tag we use place holder in this attribute we write somthing like enter your name
+if we want only number then in input tag the type attribute we cahnge text to number.
+if we give inside type attribute radio tahn it give cirlce button and we wnt to choseonly one button 
+then we give name attribute and in name attribute all values are same.
+if we give inside type attribute checkbox tahn it give square button.
+agr ham input tag ke andr type attribute me file value dete hai to bo hame file choose ka option dene lgte h.
