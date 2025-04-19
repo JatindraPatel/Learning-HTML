@@ -113,3 +113,12 @@ if we give inside type attribute radio tahn it give cirlce button and we wnt to 
 then we give name attribute and in name attribute all values are same.
 if we give inside type attribute checkbox tahn it give square button.
 agr ham input tag ke andr type attribute me file value dete hai to bo hame file choose ka option dene lgte h.
+
+* 19/04/2025 *
+for give reuired fild means field jaruri hai fill krna nhi toh submit nhi hoga.
+with the help of select tag we add somthing to selct it
+textarea ek tag hai jiska use mess. ke liye kiya jata hai feedback form me ye input tag se bada hota hai size me
+for dob we use dob value in type attribute of iput tag
+similar for time we use time value in type attribute of input tag.
+ label ko input field se connect krne ke liye input field me id attribute banao or usme label ka naam fill kr do as a value.
+ 

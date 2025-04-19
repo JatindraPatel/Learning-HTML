@@ -9,22 +9,31 @@
 <body bgcolor="lightblue">
     <form action="">
         <b><label for="">First Name :-</label></b>
-        <input type="text" placeholder="Enter your first name"> <br><br>
+        <input type="text" placeholder="Enter your first name" id="First name" required> <br><br>
 
         <b><label for="">Last Name :- </label></b>
-        <input type="text" placeholder="Enter your Last name"> <br><br>
+        <input type="text" placeholder="Enter your Last name" id="Last name" required> <br><br>
 
         <b><label for="">Age :-</label></b>
-        <input type="number"placeholder="Enter your age"> <br><br>
+        <input type="number"placeholder="Enter your age" id="Age" required> <br><br>
 
         <b><label for="">Contact :-</label></b>
-        <input type="number"placeholder="Enter your contact no."> <br><br>
+        <input type="number"placeholder="Enter your contact no." id="Contact" required> <br><br>
 
         <b><label for="">City :-</label></b>
-        <input type="text"placeholder="Enter your city name"> <br><br>
+        <select name="" id="">
+            <option value="">Select</option>
+            <option value="">Bhopal</option>
+            <option value="">Indore</option>
+            <option value="">Ujjain</option>
+            <option value="">Raisen</option>
+            <option value="">Vidisha</option>
+            <option value="">Sehore</option>
+        </select><br><br>
+        
         
         <b><label for="">Gender :-</label><br></b>
-        <input type="radio" name="Gender">Male <br><br>
+        <input type="radio" name="Gender" >Male <br><br>
         <input type="radio" name="Gender">Female <br><br>
         <input type="radio" name="Gender">Other <br><br>
 
@@ -35,11 +44,23 @@
         <input type="Checkbox">JavaScript <br><br>
 
         <b><label for="">Password</label></b>
-        <input type="Password"><br><br>
+        <input type="Password" id="Passward" required><br><br>
 
-        <input type="File"><br><br>
+        <input type="File" required><br><br>
 
-        <input type="Submit">
+        <b><label for="">DOB :- </label></b>
+        <input type="date" id="DOB"><br><br>
+
+        <b><label for="">Time :- </label></b>
+        <input type="time" id="Time"> <br><br>
+
+        <b><label for="" >Email :- </label></b>
+        <input type="text"placeholder="Enter your Email id" id="Email" required><br><br>
+
+        <b><label for="">Message :- </label></b>
+        <textarea name="" id="Message"></textarea>
+
+        <input type="Submit" ><br><br>
     </form>
 </body>
 </html>
