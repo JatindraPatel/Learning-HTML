@@ -122,3 +122,88 @@ for dob we use dob value in type attribute of iput tag
 similar for time we use time value in type attribute of input tag.
  label ko input field se connect krne ke liye input field me id attribute banao or usme label ka naam fill kr do as a value.
  
+
+ * 21/04/2025 *
+ Table :-
+ row horizontal hoti hai
+ coloum vertical hoti h.
+ th = table heading.
+ tr = table row.
+ td = table data.
+ tbale tag ke andr border attribute jrur dena nhi to bo table nhi banayega.
+ table tag ke andr tr ,th,td tag aate hai.
+ jb hame tble me ek me heading chiye ho to ham colspan use krte hai bo bhi th ke andr mtlb colspan th ka attribute hai.
+ ek rowspan attributebhi hota hai jissse hai row ko merge kr skte h.
+
+ * 22/04/2025 * 
+ table tag me bgcolor bhi de skte h width and height bhi attributeuse kr skte h.
+ 
+ 
+                                CSS
+
+
+  CSS stands for Cascading Style Sheet
+  used for beautyfy and styling
+  css code run on property : value ;
+
+  CSS is only one type and it has 3 ways to use.
+
+  3 Ways :-
+  1. Inline  high priority
+  2. Internal 2nd high priority
+  3. External 3rd high priority
+
+  1. Inline : it is use within a tag.
+  tag ke andr style nam ka attributeuse krke ushe color de skte h.
+  ye bas tag ke andr use ho skte hai ye hi drawback h iska.
+
+
+  2. Internal  : within a html page it is use.
+  css me html ke elements ko target krke work krna hota h.
+
+  selector : it is use to select or target an html tags into css.
+
+  types :
+  1. Tag selectors. :- represent by tagname
+  2. Class selector. :- represent by .
+  3. id selector. :- represent by #
+  4. universal selector. :- represent by *
+  5. Grouping :- collection of selectors
+
+1 Tag Selectors :- ye sab body ke bahr tittle ke niche.
+   <style>
+        body{
+            background-color: aqua;
+        }
+        h1{
+            background-color: rebeccapurple;
+        }
+    </style>
+
+2. Class Selector :- agr ham class selector ka use krte h to hame opening tag me class declear krne hoti h.
+            
+            .head1{
+            background-color: blue;
+        }
+
+        <h1 class="head1">Hello </h1>
+
+3. EXTERNAL CSS :- ham isme phle ek alg css page banate hai then ushe html ke page se link krte hai
+                    by the use of link tag
+
+ye sab css ke page me use hota h :-
+
+text decoration
+text decoration style
+text decoration color
+font size
+font style
+word spacing
+letter spacing
+
+text-shadow: 3px 5px 7px brown;
+3px - for horizontal its value both -ve {ye left jayege} and +ve{ ye right jayege}
+
+5px - for vertical its value both -ve {ye up jayege } and +ve {ye down jayege}
+
+7px - for blur its value is always + ve
