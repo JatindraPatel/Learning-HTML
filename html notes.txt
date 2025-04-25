@@ -201,9 +201,27 @@ font style
 word spacing
 letter spacing
 
-text-shadow: 3px 5px 7px brown;
-3px - for horizontal its value both -ve {ye left jayege} and +ve{ ye right jayege}
+text-shadow: 3px 5px 7px brown :-
 
-5px - for vertical its value both -ve {ye up jayege } and +ve {ye down jayege}
+3px - for horizontal its value both -ve {ye left jayege} and +ve{ ye right jayege}.
+5px - for vertical its value both -ve {ye up jayege } and +ve {ye down jayege}.
+7px - for blur its value is always be +ve it can not be negative.
 
-7px - for blur its value is always + ve
+* 24/04/2025 *
+
+box  and css box style.
+
+
+* 25/04/2025 *
+
+div height acc to elemnt and take width 100%. width can be rechangable.
+div me height decide nhi krna h.
+display flex is a property of css . it is use to make  vertical to horizontal 
+jusify content display felx ke sth hi use hoga nhi to nhi hoga use.
+    justify-content: center;
+    justify-content: end;
+    justify-content: start; by defualt it is start.
+    
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
