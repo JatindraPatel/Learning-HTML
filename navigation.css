@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+}
+.navbar .ul li {
+    background-color: bisque;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+   
+
+}

@@ -81,7 +81,7 @@ button tag se ham button crete kr skte h jisse kuch bhi connect kr skte hai
 3rd pr video 2button jisse 1st or 2nd pr ja ske
 
 
-* 17/04/2025 :- *
+      * 17/04/2025 :- *
 
 if we give # inside href than it will be dead link used for refresing.
 for break line we use br tag  br tag is non-container tag.
@@ -102,7 +102,7 @@ or we can also use allign attribute inside the h1 tag.
 hr tag ke help se hm web page ko underline kar skte hai.
 to make somthing highlight in  we use mark tag its color is fixed yellow.
 
-* 18/04/2025 :- *
+      * 18/04/2025 :- *
 
 // FORM :
 name ,city,contact are known as label 
@@ -114,7 +114,8 @@ then we give name attribute and in name attribute all values are same.
 if we give inside type attribute checkbox tahn it give square button.
 agr ham input tag ke andr type attribute me file value dete hai to bo hame file choose ka option dene lgte h.
 
-* 19/04/2025 *
+      * 19/04/2025 *
+
 for give reuired fild means field jaruri hai fill krna nhi toh submit nhi hoga.
 with the help of select tag we add somthing to selct it
 textarea ek tag hai jiska use mess. ke liye kiya jata hai feedback form me ye input tag se bada hota hai size me
@@ -123,7 +124,8 @@ similar for time we use time value in type attribute of input tag.
  label ko input field se connect krne ke liye input field me id attribute banao or usme label ka naam fill kr do as a value.
  
 
- * 21/04/2025 *
+          * 21/04/2025 *
+
  Table :-
  row horizontal hoti hai
  coloum vertical hoti h.
@@ -225,3 +227,8 @@ jusify content display felx ke sth hi use hoga nhi to nhi hoga use.
     justify-content: space-between;
     justify-content: space-around;
     justify-content: space-evenly;
+
+    * 26/04/2025 *
+
+for vertically allignment we use allign-items  and horizontal ke liye justify-content 
+but both are work with display flex.
