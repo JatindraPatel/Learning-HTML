@@ -1,0 +1,17 @@
+.main{
+    font-family: "DM Serif Text", serif;
+}
+.main1{
+    font-family: "Poiret One", sans-serif;
+}
+.ch{
+    background-color: yellow;
+    height: 400px;
+}
+.ch1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    right: 50px;
+}

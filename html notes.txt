@@ -232,3 +232,33 @@ jusify content display felx ke sth hi use hoga nhi to nhi hoga use.
 
 for vertically allignment we use allign-items  and horizontal ke liye justify-content 
 but both are work with display flex.
+
+POSITION IN HTML :-
+
+static     //  by default 
+absolute   // ye independent hota h body se work krta hai.
+relative   // relative position dependent hoti h parent pe.
+sticky
+fixed
+
+4 property that work with only position :-
+1. Top
+2. Left
+3. Right
+4. bottom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
