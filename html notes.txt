@@ -247,7 +247,16 @@ fixed
 3. Right
 4. bottom
 
+        * 01/05/2025 *
 
+icons font awsome website se lena h.
+or link krne ke liye findawsome cnd se link uthao.
+
+psudo class and psudo elements.
+
+psudo class :-  single : se represent hota h.
+psudo elements :-  double :: se represent hota h.
+target symbol ~ 
 
 
 
