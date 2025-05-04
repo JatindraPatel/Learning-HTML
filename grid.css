@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    height: 100vh; /* vh :- view put height */
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: auto;
+    background-color: #f3f3f3;
+}
+
+.wrapper div{
+    background-color: aqua;
+    border: 2px solid black;
+}
+.wrapper .ch1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.wrapper .ch2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    
+}
+.wrapper .ch3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.wrapper .ch4{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.wrapper .ch5{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    
+}
+.wrapper .ch6{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    
+}
+button:hover{
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 9px;
+    color: #f3f3f3;
+
+
+}

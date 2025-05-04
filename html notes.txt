@@ -218,7 +218,11 @@ box  and css box style.
 
 div height acc to elemnt and take width 100%. width can be rechangable.
 div me height decide nhi krna h.
-display flex is a property of css . it is use to make  vertical to horizontal 
+display flex is a property of css . it is use to make  vertical to horizontal work on 1-D.
+
+if we work on 2-D then we use grid . in this we make row and coloum as per our need.
+
+
 jusify content display felx ke sth hi use hoga nhi to nhi hoga use.
     justify-content: center;
     justify-content: end;
@@ -257,6 +261,39 @@ psudo class and psudo elements.
 psudo class :-  single : se represent hota h.
 psudo elements :-  double :: se represent hota h.
 target symbol ~ 
+
+
+it work with parent 
+if we want to create coloumn then we use :-
+    grid-template-column : 200px 400px 
+    grid-template-column : repeat(3,auto) iske use se 3 column same size ke banege 
+if we want to create rows then we use :-
+    grid-template-row : 200px 400px 
+
+    row == ---- [horizontal]
+    column == || [vertical]
+# deadlink k work krta h anchor tag ke herf ke andr likhne pr
+
+hover ka use krke button image ka colour chnge kr skte hai 
+
+
+
+****** INTERVIEW QUESTION *********
+
+what is markup language ?
+differnece b/w anchor tag and link tag ?
+how many type of list are present in html ?
+how many type os css are present ?
+waht are selector ?
+what is span tag ?
+diff b/w div tag and section tag ?
+why we use media query ?
+diff b/w flex and grid ?
+what is box model ?
+what are meta tag ?
+what is utf-8 ?
+what is doctype ?
+how to remove underline in anchor tag ?
 
 
 
