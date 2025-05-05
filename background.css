@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+.url{
+    background-image: url(image.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: aqua;
+}

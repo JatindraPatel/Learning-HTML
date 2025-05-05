@@ -281,19 +281,52 @@ hover ka use krke button image ka colour chnge kr skte hai
 ****** INTERVIEW QUESTION *********
 
 what is markup language ?
+=> it is a way to format and structure text so that it can be displayed correctly by web browsers or other software.
+
 differnece b/w anchor tag and link tag ?
+=> The anchor tag (<a>) is used to create hyperlinks to other pages or resources, 
+    while the link tag (<link>) is used to link external resources like stylesheets to the HTML document. 
+
 how many type of list are present in html ?
+=> 3type of list are present in html. unorder list , order list , discription list.
+
 how many type os css are present ?
+=> thwere are 3 type of css are present inline,internal,external. 
+
 waht are selector ?
+=> Selectors are patterns used to select the elements you want to style in CSS.
+
 what is span tag ?
+=> The <span> tag is an inline container used to mark up a part of a text or a document without affecting the layout. 
+
 diff b/w div tag and section tag ?
+=>  use <div> for general grouping and layout, and 
+use <section> for organizing content that belongs together by topic.
+
 why we use media query ?
+=> Media queries are used in CSS to apply
+     styles based on the device's characteristics, such as screen size, allowing for responsive design.
+
 diff b/w flex and grid ?
+=> Flexbox is a one-dimensional layout model for arranging items 
+    in a row or column, while CSS Grid is a two-dimensional layout model that allows for more complex layouts.
+
 what is box model ?
+=> The box model describes the rectangular boxes generated 
+    for elements in the document tree, consisting of margins, borders, padding, and the content area.
+
 what are meta tag ?
+=> Meta tags provide metadata about the HTML document, such as character set, 
+  author, and viewport settings, and are placed in the <head> section.
+
 what is utf-8 ?
+=> UTF-8 is a way to encode text so that computers can understand and display it correctly
+
 what is doctype ?
+=> The doctype declaration defines the document type and version of HTML being used.
+
 how to remove underline in anchor tag ?
+=> To remove the underline from an anchor tag, use the CSS property: a { text-decoration: none; }.
 
 
 
