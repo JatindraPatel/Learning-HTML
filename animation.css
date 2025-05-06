@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+  /*  to{
+        top: 0;
+        left: 300px;
+
+    }
+    from{
+        top: 0;
+        left: 0;
+
+    }
+        */
+    0%{
+        top: 0;
+        left: 0;
+    }
+    30%{
+        rotate: 50deg;
+        left: 300px;
+        top: 0;
+        border: 5px solid aqua;
+        scale: 1.2;
+    }
+    60%{
+        
+        left: 400px;
+        top: 300px;
+        border: 5px solid black;
+        
+    }
+    90%{
+        
+        left: 800px;
+        top: 700px;
+        border: 5px solid black;
+        
+    }
+
+
+    
+}
